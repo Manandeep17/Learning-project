@@ -1,0 +1,56 @@
+/* src/components/LoginForm.css */
+.whole{
+    background-color: rgb(237, 242, 247);
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-border{
+    /* margin: 100px; */
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+   
+}
+.title{
+    text-align: center;
+    font-size: large;
+    font: bold;
+}
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40vw;
+    padding: 2vw 1vw;
+    background-color: rgb(247, 248, 248);
+    border-radius: 25px 25px 25px 25px;
+  }
+ 
+  input {
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    outline: none;
+    margin: 10px;
+  }
+ 
+   .button1 {
+    margin: 10px;
+    background-color:rgb(237, 72, 85);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  .button1:hover{
+    background-color: rgb(219, 119, 119);
+  }
+  label{
+    margin: 10px;
+    text-align: left;
+  }
